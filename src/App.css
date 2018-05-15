@@ -21,7 +21,27 @@
 .App-intro {
   font-size: large;
 }
+a{
+  margin: 100px;
+  font-size: 2em;
+}
+.movie-info{
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+  width: 200px;
+}
+.movie-display{
 
+}
+.poster{
+  align-self: center;
+  width: 120px;
+  height: 150px;
+}
+.movie-title{
+  align-self: center;
+}
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
